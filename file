@@ -1,0 +1,73 @@
+GIT:
+
+touch file
+cat file
+vim file
+rm file or rm -rf file or folder
+mkdir folder
+rmdir folder
+rm -rf folder
+cd folder
+cd ..
+history
+clear
+git clone url
+git add .
+git commit -m "add any commit"
+git push
+git init or git checkout -b "master"
+git add .
+git commit -m "add any commit"
+git remote add origin url
+git push origin master
+cp file folder
+mv file folder
+
+
+MAVEN:
+
+mvn archetype:generate
+mvn clean
+mvn compile
+mvn test
+mvn package
+mvn install
+mvn deploy
+
+JENKINS:
+
+CI-CD: continous integration & continous deployment
+continous integration: means installing the plugins from manage jenkins to run
+continous deployment: means deploying or delivering the work with the help of installed pluggins
+ pipelines:
+
+ declarative, scripted
+
+SONARQUBES: it's a testing tool, to check if there is any bugs, vulnerabilities etc..
+
+DOCKER:
+
+yum install docker -y
+sudo service docker start
+docker images
+docker ps
+docker ps -a
+docker pull image
+docker run -it --name (container name) (image name)
+docker start container id
+docker stop container id
+docker run -it p8080:8080 image name  or docker exec -it --name (container name) -p8080:8080 image name_container
+
+
+TERRAFORM:
+
+it's an autimation tool and terraform can be used to create a resources by writing the codes or by commands
+it's file refers to  .tf
+
+terraform commands:
+
+terraform init
+terraform plan
+terraform validate
+terraform apply
+
